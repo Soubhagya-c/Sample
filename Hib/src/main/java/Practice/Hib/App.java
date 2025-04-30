@@ -20,6 +20,7 @@ public class App
         p.setNickName("sou");
         p.setAdhar(ac);
         
+        
         sess.persist(p);
         sess.persist(ac);
         
