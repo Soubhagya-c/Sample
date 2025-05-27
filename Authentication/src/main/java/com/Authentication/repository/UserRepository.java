@@ -6,4 +6,5 @@ import com.Authentication.entities.Users;
 
 public interface UserRepository extends JpaRepository<Users, Integer>{
 
+	Users findByUsername(String username);
 }
